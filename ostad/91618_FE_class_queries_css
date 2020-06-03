@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="http://www.google.com" method="POST">
+        User name: <input type="text" name="usr_name" id=""> UPassword: <input type="password" name="usr_pass" id="">
+        <input type="submit" value="Submit">
+        <textarea name="t-area" id="" cols="30" rows="10"></textarea>
+    </form>
+    
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+
+    <p id="p-id">this is a para</p>
+
+    <p class="p-dmrw2004">this is class</p>
+
+    <h1>this is head</h1>
+
+</body>
+
+</html>
+
+
+
+p {
+    color: red;
+}
+
+#p-id {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.p-dmrw2004 {
+    color: yellow;
+}
+
+body {
+    font-family: cursive;
+}
+
+h1 {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 10px;
+    border-style: dotted;
+    background-color: brown;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 200px;
+    text-shadow: 20px 5px gold;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-radius: 50%;
+}
+
+
+
+p {
+    color: red;
+}
+
+#p-id {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.p-dmrw2004 {
+    color: yellow;
+}
+
+body {
+    font-family: cursive;
+}
+
+h1 {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 10px;
+    border-style: dotted;
+    background-color: brown;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 200px;
+    text-shadow: 20px 5px gold;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+}
+

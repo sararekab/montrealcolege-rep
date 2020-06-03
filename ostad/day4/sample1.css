@@ -1,0 +1,35 @@
+.out-box {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-box img {
+    height: 400px;
+    width: 100%;
+}
+
+.content-box {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: +1;
+    left: 100%;
+    top: 100%;
+    transition: 2s ease;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out-box:hover .content-box {
+    left: 0;
+    top: 0;
+}
